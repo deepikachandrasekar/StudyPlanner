@@ -12,21 +12,11 @@ struct Timer: View {
     @State private var selection = 1
 
     var body: some View {
-        TabView(selection: $selection)
-           {
-           Text("The First Tab")
-               .tabItem {
-                   Image(systemName: "1.square.fill")
-                   Text("Home")
-            }.tag(1)
-           Text("Another Tab")
-               .tabItem {
-                   Image(systemName: "2.square.fill")
-                   Text("Timer")
-            }.tag(2)
-        
-           }
-    }
+        VStack{
+            Text("This is a timer")
+                   NavigationBarBottom()
+        }
+}
 }
 
 struct Timer_Previews: PreviewProvider {

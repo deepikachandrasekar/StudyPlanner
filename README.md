@@ -1,2 +1,0 @@
-# StudyPlanner
-MastersProject

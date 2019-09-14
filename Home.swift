@@ -10,24 +10,10 @@ import SwiftUI
 
 struct Home: View {
     var body: some View {
-        TabView {
-            Text("The First Tab")
-                .tabItem {
-                    Image(systemName: "1.square.fill")
-                    Text("Home")
-                }
-            Text("Another Tab")
-                .tabItem {
-                    Image(systemName: "2.square.fill")
-                    Text("Timer")
-                }
-            Text("The Last Tab")
-                .tabItem {
-                    Image(systemName: "3.square.fill")
-                    Text("Rewards")
-                }
-        }
-        .font(.headline)
+        VStack{
+       Text("Hello")
+     NavigationBarBottom()
+    }
     }
 }
 
